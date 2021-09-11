@@ -13,9 +13,17 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
     "baseUrl": ".",
     "paths": {
-      "@pokemon/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@pokemon/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@pokemon/core-data": ["libs/core-data/src/index.ts"],
+      "@pokemon/core-state": ["libs/core-state/src/index.ts"],
+      "@pokemon/environment": ["libs/environment/src/index.ts"],
+      "@pokemon/material": ["libs/material/src/index.ts"],
+      "@pokemon/theme": ["libs/theme/src/index.ts"],
+      "@pokemon/ui-login": ["libs/ui-login/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
